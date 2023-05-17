@@ -1,4 +1,4 @@
-package com.ferc.greetingsservice;
+package com.ferc.greetings.core;
 
 public record Greeting(Long id, String message) {
 }

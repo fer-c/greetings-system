@@ -1,10 +1,10 @@
-package com.ferc.greetingsservice;
+package com.ferc.greetings;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GreetingsServiceApplicationTests {
+class GreetingsApplicationTests {
 
 	@Test
 	void contextLoads() {

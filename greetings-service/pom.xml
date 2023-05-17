@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ferc</groupId>
-	<artifactId>greetings-service</artifactId>
+	<artifactId>greetings</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>greetings-service</name>
 	<description>Demo project for Spring Boot</description>
@@ -17,13 +17,11 @@
 		<java.version>20</java.version>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-inline</artifactId>
 			<version>5.2.0</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -32,20 +30,17 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<scope>annotationProcessor</scope>
 		</dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -54,5 +49,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

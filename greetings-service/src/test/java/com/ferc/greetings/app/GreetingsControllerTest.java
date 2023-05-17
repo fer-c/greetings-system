@@ -1,4 +1,4 @@
-package com.ferc.greetingsservice;
+package com.ferc.greetings.app;
 
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.mockito.Mockito.when;
@@ -7,6 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+
+import com.ferc.greetings.core.Greeting;
+import com.ferc.greetings.core.GreetingsService;
 
 @ExtendWith(MockitoExtension.class)
 public class GreetingsControllerTest {
