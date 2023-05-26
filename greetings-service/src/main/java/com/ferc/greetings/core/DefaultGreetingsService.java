@@ -9,7 +9,7 @@ public class DefaultGreetingsService implements GreetingsService {
 
     @Override
     public Greeting sayGreeting() {
-        return new Greeting(generateId(), "Hello %s!".formatted("there"));
+        return new Greeting(generateId(), "Hello %s you!".formatted("there"));
     }
 
     private Long generateId() {
