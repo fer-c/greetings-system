@@ -42,3 +42,4 @@ out/
 
 ### Maven ###
 .mvn
+.DS_Store

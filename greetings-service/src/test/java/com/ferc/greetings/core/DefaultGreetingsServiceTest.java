@@ -11,6 +11,6 @@ public class DefaultGreetingsServiceTest {
 
         final GreetingsService service = spy(new DefaultGreetingsService());
         final var result = service.sayGreeting();
-        assertEquals(new Greeting(1L, "Hello there!"), result);
+        assertEquals(new Greeting(1L, "Hello there you!"), result);
     }
 }
